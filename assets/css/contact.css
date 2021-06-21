@@ -22,3 +22,15 @@ h1{
     align-content: center;
     justify-content: center;
 }
+input[type="text"], textarea{
+    padding: 12px 75px 12px 5px;
+    box-shadow: 0 0 5px black;
+    margin: 6px;
+    border: none;
+    outline: none;
+
+}
+::placeholder{
+    color:black;
+    font-weight: bold;
+}
