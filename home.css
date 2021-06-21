@@ -4,11 +4,12 @@ div{
 #nav{  
     display: flex;
     padding: 1px;
-    background-color:rgba(70, 233, 138, 0.459);
+    background-color:#14ac51;
 }
 
 h1{
     padding-top: 20px;
+    color: white;
 }
 
 h2{
@@ -33,6 +34,19 @@ ul{
 #signUp{
 margin-left: 450px;
 }
+
 #homefirst{
     margin-left: 20px;
+}
+
+#main{
+    background-image: url(./assets/images/ps.jpeg);
+    background-size: cover;
+    height: 720px;
+}
+#words p{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+
 }
