@@ -56,4 +56,29 @@ margin-left: 250px;
 
 #icons{
     display: flex;
+    text-align: center;
+    
 }
+#icons p{
+    color: #d42323;
+    font-size: 35px;
+}
+#key{
+    width: 370px;
+}
+#cash{
+    width: 370px;
+}
+#calendar{
+    width: 370px;
+}
+#padlock{
+    width: 370px;
+}
+
+#properties{
+text-align: center;
+}
+#properties h1{
+ font-size: 70px;
+ color: brown;
