@@ -4,7 +4,7 @@
     padding: 15%;
 
 }
-.contact{
+.cont_header{
     background-color:#14AC51;
     text-align: center;
     padding: 10px;
@@ -40,7 +40,7 @@ button{
     background-color: #14AC51;
     color: white;
     padding: 12px 40px 12px 40px;
-    margin-left: 15%;
+    margin-left: 12%;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -53,6 +53,18 @@ button:hover{
     font-size: 18px;
     background-color: white;
     color: green;
+
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col{
+    background-color:#14AC51;
+    padding: 20px;
+    margin-top: 20px;
 
 }
 
