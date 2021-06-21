@@ -1,0 +1,38 @@
+div{
+    border: 1px dashed red;
+}
+#nav{  
+    display: flex;
+    padding: 1px;
+    background-color:rgba(70, 233, 138, 0.459);
+}
+
+h1{
+    padding-top: 20px;
+}
+
+h2{
+    padding-top: 29px;
+    padding-left: 5px;
+}
+
+ul{
+    display: flex;
+}
+#homefirst li{
+    padding: 70px;
+    padding-top: 37px;
+    display: flex;
+}
+#signUp li{
+    display: flex;
+    padding: 37px;
+    margin: 10px;
+}
+
+#signUp{
+margin-left: 450px;
+}
+#homefirst{
+    margin-left: 20px;
+}
