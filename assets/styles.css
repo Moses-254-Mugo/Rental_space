@@ -24,6 +24,7 @@
 
 #Dashboard{display: none;}
 
-#Dashboard:hover{
-    background-color: #14AC51;
+.dashboard-links:hover{
+    padding-top: 4px;
+    cursor: pointer;
 }
