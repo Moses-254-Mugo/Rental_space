@@ -82,3 +82,29 @@ text-align: center;
 #properties h1{
  font-size: 70px;
  color: brown;
+}
+#properties h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+#second-page{
+   display: flex; 
+   justify-content: space-around;
+}
+#second-page p{
+    font-weight: 600;
+}
+#smallicon{
+    border: 1px solid #14ac51;
+    width: 170px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #14ac51;
+    margin-left: 85%;
+    }
+
+#smallicon p{
+color: white;
+font-weight: 600;
+font-size: 19px;
+}
