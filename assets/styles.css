@@ -8,3 +8,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+.Dashboard-data{
+    position: absolute;
+    left: 480px;
+    top: 185px;
+    background-color: #C4C4C4;
+    height: 250px;
+    width: 950px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
