@@ -1,22 +1,7 @@
-<div class="contact">
-<h2>CONTACTS</h2>
-</div>
+.banner{
+    background: url("../images/ps.jpeg") no-repeat center;
+    background-size: cover;
+    padding: 15%;
 
-<h1>GET IN TOUCH</h1>
 
-
-<div class="form1">
-            <form>
-                <table>
-                    <tr>
-                        <td><input type="text" placeholder="Name"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="text" placeholder="Email"></td>
-                    </tr>
-                    <tr>
-                        <td><textarea rows="4" cols="20" placeholder="Message"></textarea> </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
+}
