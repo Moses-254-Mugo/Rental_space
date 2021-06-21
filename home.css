@@ -32,11 +32,11 @@ ul{
 }
 
 #signUp{
-margin-left: 450px;
+margin-left: 250px;
 }
 
 #homefirst{
-    margin-left: 20px;
+    margin-left: 200px;
 }
 
 #main{
@@ -48,5 +48,12 @@ margin-left: 450px;
     font-size: 90px;
     font-weight: 700;
     color: white;
+}
+#words{
+    padding-top: 120px;
+    margin-left: 80px;
+}
 
+#icons{
+    display: flex;
 }
