@@ -23,3 +23,7 @@
 }
 
 #Dashboard{display: none;}
+
+#Dashboard:hover{
+    background-color: #14AC51;
+}
