@@ -114,4 +114,6 @@ font-size: 19px;
 }
 #footer{
     display: flex;
+    background-color: #14ac51;
+    justify-content: space-around;
 }
