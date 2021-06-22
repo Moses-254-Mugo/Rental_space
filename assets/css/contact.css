@@ -158,4 +158,14 @@ button:hover{
     justify-content: space-around;
     
 }
-
+#opening-hours p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#opening-hours h1{
+    color: black;
+}
+#last-part{
+    text-align: center;
+}
