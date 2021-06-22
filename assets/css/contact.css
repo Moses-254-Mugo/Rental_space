@@ -169,3 +169,7 @@ button:hover{
 #last-part{
     text-align: center;
 }
+#last-part h3{
+    color: white;
+    font-size: 15px;
+}
