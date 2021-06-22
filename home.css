@@ -17,7 +17,7 @@ h2{
     padding-left: 5px;
 }
 
-ul{
+ ul{
     display: flex;
 }
 #homefirst li{
@@ -107,4 +107,11 @@ text-align: center;
 color: white;
 font-weight: 600;
 font-size: 19px;
+}
+
+#navigation ul{
+    display: block;
+}
+#footer{
+    display: flex;
 }
