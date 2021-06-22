@@ -87,13 +87,14 @@ ul li a{
 }
 
 .signup-form{
-    position: absolute;
-    margin-top: 50px;
+    position: fixed;
+    margin-top: -470px;
     margin-left: 900px;
-    background-color: white;
-    height: 590px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 620px;
     width: 500px;
-    box-shadow: 1px 1px 7px black;
+    box-shadow: 1px 1px 9px black;
     display: none;
 }
 
@@ -172,15 +173,23 @@ ul li a{
 }
 
 .signin-form{
-    position: absolute;
-    margin-top: 50px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: -400px;
     margin-left: 90px;
-    background-color: white;
     height: 490px;
     width: 500px;
     box-shadow: 1px 1px 7px black;
-    z-index: 1;
     display: none;
+}
+
+#signIN{background-color: rgb(146, 146, 146);
+    z-index: 1;
+}
+#signUP{
+    background-color: rgb(146, 146, 146);
+    z-index: 1;
 }
 
 #signin-button{
@@ -224,10 +233,9 @@ ul li a{
     color: black;
 }
 #footer{
-    position: absolute;
-    width: 100%;
+    width: 1513px;
     left: 0;
-    right: 0;
+    margin-left: -8px;
     margin-top: 250px;
     display: flex;
     background-color: #14ac51;

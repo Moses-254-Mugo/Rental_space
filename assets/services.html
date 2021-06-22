@@ -31,8 +31,8 @@
         <h1 style="margin-left:680px;margin-top:0;font-weight: bold;">SERVICES</h1>
         </div>
     </div>
-    <form class="signup-form">
-        <img src="cancel.png" style="width: 23px;margin-left: 470px;margin-top: 5px;">
+    <form class="signup-form" id="signUP">
+        <img src="cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Create Account</h2>
         <label id="signup-user">Username</label>
         <input type="text" placeholder="Enter username" id="input-user">
@@ -43,8 +43,8 @@
         <button class="signup-button">Create Account</button>
     </form>
 
-    <form class="signin-form">
-        <img src="cancel.png" style="width: 23px;margin-left: 470px;margin-top: 5px;">
+    <form class="signin-form" id="signIN">
+        <img src="cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Sign In</h2>
         <label id="signup-user">Username</label>
         <input type="text" placeholder="Enter username" id="input-user">
@@ -132,8 +132,8 @@
               <li><a href="about.html">About Us</a></li>
               <li><a href="services.html">Gallery</a></li>
               <li><a href="services.html">Services</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="#signIN" onclick="login()">Login</a></li>
+              <li><a href="#signUP" onclick="signup()">Sign Up</a></li>
           </ul>
         </div>
         <div id="opening-hours">
@@ -158,5 +158,6 @@
         </div>
     </div>
 
+    <script src="rentals.js"></script>>
 </body>
 </html>
