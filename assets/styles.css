@@ -79,7 +79,7 @@ ul li a{
 .signup-form{
     position: absolute;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 900px;
     background-color: white;
     height: 550px;
     width: 500px;
@@ -158,4 +158,18 @@ ul li a{
     color: white;
     border: 1px solid transparent;
     cursor: pointer;
+}
+
+.signin-form{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+    background-color: white;
+    height: 470px;
+    width: 500px;
+    box-shadow: 1px 1px 7px black;
+}
+
+#signin-button{
+    margin-top: 300px;
 }
