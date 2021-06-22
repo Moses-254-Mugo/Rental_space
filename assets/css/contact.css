@@ -114,20 +114,19 @@ button:hover{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 40px;
-    background-color: #ccc;
     padding: 20px;
 
 }
 .col{
     background-color:#14AC51;
     padding: 20px;
-
     width: 35%;
     text-align: center;
 
 }
 .card{
     padding: 20px;
+    overflow: hidden;
 }
 .col p{
     color: #fff;
