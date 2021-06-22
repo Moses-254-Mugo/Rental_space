@@ -28,3 +28,45 @@
     padding-top: 4px;
     cursor: pointer;
 }
+
+#nav{  
+    display: flex;
+    padding: 1px;
+    background-color:#14ac51;
+}
+
+h1{
+    padding-top: 20px;
+    color: white;
+}
+
+h2{
+    padding-top: 29px;
+    padding-left: 5px;
+}
+
+ ul{
+    display: flex;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#homefirst li{
+    padding: 70px;
+    padding-top: 37px;
+    display: flex;
+}
+#signUp li{
+    display: flex;
+    padding: 35px;
+}
+
+
+#homefirst{
+    margin-left: 200pX;
+}
