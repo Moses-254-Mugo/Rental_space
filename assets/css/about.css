@@ -127,3 +127,22 @@ body{
   font-weight: bold;
 }
 
+.corevalues{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(1, 163, 1);
+  text-align: center;
+}
+
+.valuetext{
+  margin: 3%;
+  font-size: 2em;
+  color:white
+}
+
+.vcards{
+  display: flex;
+  justify-content: space-around;
+}
