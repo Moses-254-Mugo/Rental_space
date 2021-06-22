@@ -75,3 +75,87 @@ ul li a{
     background-image: url("public_store.jpeg");
     height: 400px;
 }
+
+.signup-form{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    background-color: white;
+    height: 550px;
+    width: 500px;
+    box-shadow: 1px 1px 7px black;
+}
+
+#signup-user{
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+#input-user{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 37px;
+    width: 300px;
+    background-color: lightgray;
+    border: 1px solid transparent;
+}
+
+::placeholder{
+    color: black;
+    padding: 8px;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px
+}
+
+#signup-pwd{
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 165px;
+}
+
+#input-pwd{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 80px;
+    height: 37px;
+    width: 300px;
+    background-color: lightgray;
+    border: 1px solid transparent;
+}
+
+#signup-pwd2{
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 290px
+}
+
+#input-pwd2{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 80px;
+    height: 37px;
+    width: 300px;
+    background-color: lightgray;
+    border: 1px solid transparent;
+}
+
+.signup-button{
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 160px;
+    height: 45px;
+    width: 170px;
+    background-color: #14ac51;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
