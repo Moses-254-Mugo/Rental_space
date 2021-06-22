@@ -70,3 +70,8 @@ ul li a{
 #homefirst{
     margin-left: 200pX;
 }
+
+.header{
+    background-image: url("public_store.jpeg");
+    height: 400px;
+}
