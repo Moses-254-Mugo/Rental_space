@@ -30,14 +30,20 @@
 }
 
 #nav{  
+    position: absolute;
     display: flex;
     padding: 1px;
     background-color:#14ac51;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
 }
 
 h1{
     padding-top: 20px;
     color: white;
+    margin-left: 20px;
 }
 
 h2{
@@ -73,7 +79,11 @@ ul li a{
 
 .header{
     background-image: url("public_store.jpeg");
-    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .signup-form{
@@ -81,9 +91,10 @@ ul li a{
     margin-top: 50px;
     margin-left: 900px;
     background-color: white;
-    height: 550px;
+    height: 590px;
     width: 500px;
     box-shadow: 1px 1px 7px black;
+    display: none;
 }
 
 #signup-user{
@@ -165,11 +176,42 @@ ul li a{
     margin-top: 50px;
     margin-left: 90px;
     background-color: white;
-    height: 470px;
+    height: 490px;
     width: 500px;
     box-shadow: 1px 1px 7px black;
+    z-index: 1;
+    display: none;
 }
 
 #signin-button{
     margin-top: 300px;
+}
+
+.stalls{
+    display: flex;
+    margin-left: 290px;
+}
+
+#single1{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 90px;
+    color: #F8123B;
+    font-weight: bold;
+}
+
+#single2{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 370px;
+    color: #F8123B;
+    font-weight: bold;
+}
+
+#single3{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 695px;
+    color: #F8123B;
+    font-weight: bold;
 }
