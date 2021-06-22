@@ -27,8 +27,8 @@ body{
 }
 .navbar_links ul{
     display: flex;
-    margin: 0;
-    padding: 0; 
+    /* margin: 0;
+    padding: 0;  */
 }
 .navbar_links li{
     list-style-type: none;
