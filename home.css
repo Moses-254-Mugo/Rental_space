@@ -111,9 +111,35 @@ font-size: 19px;
 
 #navigation ul{
     display: block;
+
+}
+#navigation h1{
+    color: black;
 }
 #footer{
     display: flex;
     background-color: #14ac51;
     justify-content: space-around;
+}
+#opening-hours p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#opening-hours h1{
+    color: black;
+}
+
+#last-part{
+    text-align: center;
+}
+#last-part h3{
+    color: white;
+    font-size: 15px;
+}
+#last-part h2{
+    font-size: 40px;
+}
+#last-part h1{
+    font-size: 40px;
 }
