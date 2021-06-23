@@ -1,3 +1,6 @@
+div{
+    border: 1px dashed red;
+}
 .logo{
     flex: 1.5;
 }
@@ -9,7 +12,7 @@
     display: flex;
     flex: 1;
 }
-li{
+#navlist li{
     list-style-type: none;
     float: left;
 }
@@ -21,8 +24,8 @@ a{
 }
 a:hover{
     background-color: white;
-    color:;
-    font-size: 19px #14ac51;
+    color:#14ac51;
+    font-size: 19px;
     padding: 14px 16px;
 }
 
@@ -105,6 +108,9 @@ font-size: 19px;
 #navigation ul{
     display: block;
     list-style: none;
+}
+#navigation{
+    display: block;
 }
 #navigation h1{
     color: black;
