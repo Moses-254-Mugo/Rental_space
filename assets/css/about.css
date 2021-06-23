@@ -19,7 +19,7 @@ body{
   display: flex;
   flex: 1;
 }
-li{
+.nav li{
   list-style-type: none;
   float: left;
 }
@@ -34,6 +34,7 @@ a:hover{
   color: green;
   font-size: 19px;
   padding: 14px 16px;
+  border-radius: 10px;
 }
 
 .header{
@@ -186,4 +187,38 @@ a:hover{
 .service img{
   border: black solid 2px;
   border-radius: 100%;
+}
+
+/* Footer */
+#footer{
+  display: flex;
+  background-color: #14AC51;
+  justify-content: space-around;
+}
+#opening-hours p{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+#opening-hours h1{
+  color: black;
+}
+#last-part{
+  text-align: center;
+}
+#last-part h3{
+  color: white;
+  font-size: 15px;
+}
+#last-part h2{
+  font-size: 40px;
+}
+#last-part h1{
+  font-size: 40px;
+}
+
+#navigation li{
+  padding: 5px;
+  margin: 10px;
+  list-style: none;
 }
