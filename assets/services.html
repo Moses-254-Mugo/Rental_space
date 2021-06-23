@@ -21,8 +21,8 @@
         </div>
         <div id="signUp">
             <ul>
-            <li><a href="#">login</a></li>
-            <li><a href="#">Sign up</a></li>
+            <li><a href="#signIN" onclick="login()">login</a></li>
+            <li><a href="#signUP" onclick="signup()">Sign up</a></li>
         </ul>
         </div>
     </div>
@@ -35,22 +35,22 @@
         <img src="cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Create Account</h2>
         <label id="signup-user">Username</label>
-        <input type="text" placeholder="Enter username" id="input-user">
+        <input type="text" placeholder="Enter username" class="input-user" required>
         <label id="signup-pwd">Password</label>
-        <input type="text" placeholder="Enter Password"  id="input-pwd">
+        <input type="text" placeholder="Enter Password"  class="input-pwd" required>
         <label id="signup-pwd2">Confirm Password</label>
-        <input type="text" placeholder="Confirm your Password"  id="input-pwd2">
-        <button class="signup-button">Create Account</button>
+        <input type="text" placeholder="Confirm your Password"  id="input-pwd2" required>
+        <button class="signup-button" onclick="validate1()">Create Account</button>
     </form>
 
     <form class="signin-form" id="signIN">
         <img src="cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Sign In</h2>
         <label id="signup-user">Username</label>
-        <input type="text" placeholder="Enter username" id="input-user">
+        <input type="text" placeholder="Enter username" class="input-user" id="input-user" required>
         <label id="signup-pwd">Password</label>
-        <input type="text" placeholder="Enter Password"  id="input-pwd">
-        <button class="signup-button" id="signin-button">Sign In</button>
+        <input type="text" placeholder="Enter Password"  class="input-pwd" id="input-pwd" required>
+        <button class="signup-button" id="signin-button" onclick="validate()">Sign In</button>
     </form>
 
     <h2 style="text-align: center;font-size: 28px;

@@ -95,7 +95,7 @@ ul li a{
     height: 620px;
     width: 500px;
     box-shadow: 1px 1px 9px black;
-    display: none;
+    display: none
 }
 
 #signup-user{
@@ -106,7 +106,7 @@ ul li a{
     margin-top: 40px;
 }
 
-#input-user{
+.input-user{
     position: absolute;
     margin-top: 80px;
     margin-left: 80px;
@@ -132,7 +132,7 @@ ul li a{
     margin-top: 165px;
 }
 
-#input-pwd{
+.input-pwd{
     position: absolute;
     margin-top: 210px;
     margin-left: 80px;
@@ -169,7 +169,16 @@ ul li a{
     background-color: #14ac51;
     color: white;
     border: 1px solid transparent;
+    border-radius: 8px;
     cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+.signup-button:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
 }
 
 .signin-form{
@@ -194,6 +203,16 @@ ul li a{
 
 #signin-button{
     margin-top: 300px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+.signin-button:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
 }
 
 .stalls{
