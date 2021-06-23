@@ -21,8 +21,8 @@ a{
 }
 a:hover{
     background-color: white;
-    color: green;
-    font-size: 19px;
+    color:;
+    font-size: 19px #14ac51;
     padding: 14px 16px;
 }
 
