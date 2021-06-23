@@ -5,6 +5,14 @@
     background-color:#14ac51;
     display: flex;
 }
+#navlist{
+    display: flex;
+    flex: 1;
+}
+
+
+
+
 #main{
     background-image: url(./assets/images/ps.jpeg);
     background-size: cover;
