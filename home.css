@@ -1,0 +1,151 @@
+.logo{
+    flex: 1.5;
+}
+.header{
+    background-color:#14ac51;
+    display: flex;
+    overflow: hidden;
+}
+#navlist{
+    display: flex;
+    flex: 1;
+}
+#navlist li{
+    list-style-type: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 600;
+}
+a:hover{
+    background-color: white;
+    color:#14ac51;
+    font-size: 19px;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+
+
+
+#main{
+    background-image: url(./assets/images/ps.jpeg);
+    background-size: cover;
+    height: 720px;
+}
+#words p{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+#words{
+    padding-top: 120px;
+    margin-left: 80px;
+}
+
+#icons{
+    display: flex;
+    text-align: center;
+    
+}
+#icons p{
+    color: #d42323;
+    font-size: 35px;
+}
+#key{
+    width: 370px;
+}
+#cash{
+    width: 370px;
+}
+#calendar{
+    width: 370px;
+}
+#padlock{
+    width: 370px;
+}
+
+#properties{
+text-align: center;
+}
+#properties h1{
+ font-size: 70px;
+ color: brown;
+}
+#properties h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+#second-page{
+   display: flex; 
+   justify-content: space-around;
+}
+#second-page p{
+    font-weight: 600;
+}
+#smallicon{
+    border: 1px solid #14ac51;
+    width: 170px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #14ac51;
+    margin-left: 85%;
+    margin-bottom: 15px;
+    }
+#smallicon p{
+color: white;
+font-weight: 600;
+font-size: 19px;
+}
+#smallicon a{
+    text-decoration: none;
+}
+
+
+
+
+#navigation ul{
+    display: block;
+    list-style: none;
+    padding: 10px;
+}
+#navigation h1{
+    color: black;
+}
+#navigation a{
+    text-decoration: none;
+}
+#navigation li{
+    margin: 10px;
+    padding: 5px;
+}
+#footer{
+    display: flex;
+    background-color: #14ac51;
+    justify-content: space-around;
+}
+#opening-hours p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#opening-hours h1{
+    color: black;
+}
+
+#last-part{
+    text-align: center;
+}
+#last-part h3{
+    color: white;
+    font-size: 15px;
+}
+#last-part h2{
+    font-size: 40px;
+}
+#last-part h1{
+    font-size: 40px;
+}
