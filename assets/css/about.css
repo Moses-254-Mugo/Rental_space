@@ -49,11 +49,14 @@ body{
   position: absolute;
   margin-left: 70px;
   margin-top: -5%;
+  border: solid black 1px;
   
 }
 
 .text p{
-  margin-left: 30%;
+  margin-left: 20%;
+  font-size: 1.2em;
+  font-weight: bold;
 
 }
 
@@ -138,11 +141,21 @@ body{
 
 .valuetext{
   margin: 3%;
-  font-size: 2em;
+  font-size: 2.5em;
   color:white
 }
 
 .vcards{
   display: flex;
   justify-content: space-around;
+}
+
+.service{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+.service img{
+  border: black solid 2px;
+  border-radius: 100%;
 }
