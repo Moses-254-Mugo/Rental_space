@@ -9,7 +9,10 @@
     display: flex;
     flex: 1;
 }
-
+li{
+    list-style-type: none;
+    float: left;
+}
 
 
 
