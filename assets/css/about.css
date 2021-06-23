@@ -14,10 +14,11 @@ body{
 
 .logo{
   float: left;
-  background:url("../images/LOGO.png") no-repeat center;
+  background:url("../LOGO.png") no-repeat center;
   background-size: cover;
   padding: 42px;
 }
+
 #all{
   background-color: green;
   overflow: hidden;
@@ -28,15 +29,18 @@ body{
  align-items: center;
  float: right;
 }
+
 .navbar_links ul{
   display: flex;
   /* margin: 0;
   padding: 0; */
 }
+
 .navbar_links li{
   list-style-type: none;
   font-size: 20px;
 }
+
 .navbar_links li a{
   text-decoration: none;
   color: #fff;
@@ -44,6 +48,7 @@ body{
   padding: 14px 16px ;
   display: block;
 }
+
 .navbar_links ul li a:hover{
   background-color:#fff;
   color:green;
@@ -103,15 +108,13 @@ a{
   position: absolute;
   margin-left: 70px;
   margin-top: -5%;
-  border: solid black 1px;
-  
+  border: solid black 1px;  
 }
 
 .text p{
   margin-left: 20%;
   font-size: 1.2em;
   font-weight: bold;
-
 }
 
 .lorem{
@@ -155,7 +158,6 @@ a{
 
 .cards{
   display: flex;
-  
 }
 
 .user{
@@ -225,19 +227,24 @@ a{
   font-size: 20px;
   font-weight: 600;
 }
+
 #opening-hours h1{
   color: black;
 }
+
 #last-part{
   text-align: center;
 }
+
 #last-part h3{
   color: white;
   font-size: 15px;
 }
+
 #last-part h2{
   font-size: 40px;
 }
+
 #last-part h1{
   font-size: 40px;
 }
