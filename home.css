@@ -1,10 +1,10 @@
-
 .logo{
     flex: 1.5;
 }
 .header{
     background-color:#14ac51;
     display: flex;
+    overflow: hidden;
 }
 #navlist{
     display: flex;
@@ -16,9 +16,10 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color:white;
     padding: 14px 16px;
     font-size: 18px;
+    font-weight: 600;
 }
 a:hover{
     background-color: white;
@@ -94,7 +95,6 @@ text-align: center;
     margin-left: 85%;
     margin-bottom: 15px;
     }
-
 #smallicon p{
 color: white;
 font-weight: 600;
@@ -103,6 +103,9 @@ font-size: 19px;
 #smallicon a{
     text-decoration: none;
 }
+
+
+
 
 #navigation ul{
     display: block;
