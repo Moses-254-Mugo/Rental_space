@@ -255,7 +255,7 @@ ul li a{
     width: 1513px;
     left: 0;
     margin-left: -8px;
-    margin-top: 250px;
+    margin-top: 350px;
     display: flex;
     background-color: #14ac51;
     justify-content: space-around;
@@ -281,4 +281,65 @@ ul li a{
 }
 #last-part h1{
     font-size: 40px;
+}
+
+#rent1{
+    position:absolute;
+    margin-top:230px;
+    margin-left:360px;
+    background-color: #14ac51;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border:1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+#rent1:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+#rent2{
+    position:absolute;
+    margin-top:230px;
+    margin-left:650px;
+    background-color: #14ac51;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border:1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+#rent2:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+#rent3{
+    position:absolute;
+    margin-top:230px;
+    margin-left:990px;
+    background-color: #14ac51;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border:1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
+}
+
+
+#rent3:hover{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: ease-in-out .5s;
 }
