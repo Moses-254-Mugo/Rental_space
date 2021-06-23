@@ -1,7 +1,10 @@
 .logo{
     flex: 1.5;
 }
-
+.header{
+    background-color: green;
+    display: flex;
+}
 #main{
     background-image: url(./assets/images/ps.jpeg);
     background-size: cover;
