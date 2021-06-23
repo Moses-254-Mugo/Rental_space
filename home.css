@@ -1,43 +1,10 @@
-div{
-    border: 1px dashed red;
-}
-#nav{  
-    display: flex;
-    padding: 1px;
-    background-color:#14ac51;
-}
 
-h1{
-    padding-top: 20px;
-    color: white;
-}
 
-h2{
-    padding-top: 29px;
-    padding-left: 5px;
-}
 
- ul{
-    display: flex;
-}
-#homefirst li{
-    padding: 70px;
-    padding-top: 37px;
-    display: flex;
-}
-#signUp li{
-    display: flex;
-    padding: 37px;
-    margin: 10px;
-}
 
-#signUp{
-margin-left: 250px;
-}
 
-#homefirst{
-    margin-left: 200px;
-}
+
+
 
 #main{
     background-image: url(./assets/images/ps.jpeg);
@@ -101,6 +68,7 @@ text-align: center;
     text-align: center;
     background-color: #14ac51;
     margin-left: 85%;
+    margin-bottom: 15px;
     }
 
 #smallicon p{
@@ -108,13 +76,19 @@ color: white;
 font-weight: 600;
 font-size: 19px;
 }
+#smallicon a{
+    text-decoration: none;
+}
 
 #navigation ul{
     display: block;
-
+    list-style: none;
 }
 #navigation h1{
     color: black;
+}
+#navigation a{
+    text-decoration: none;
 }
 #footer{
     display: flex;
