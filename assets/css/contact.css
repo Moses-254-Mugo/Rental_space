@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Style Logo*/
+.logo{
+    float: left;
+    background:url("../images/LOGO.png") no-repeat center;
+    background-size: cover;
+    padding: 42px;
+
+}
+#all{
+    background-color: #14AC51;
+    overflow: hidden;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   float: right;
+
+}
+.navbar_links ul{
+    display: flex;
+    /* margin: 0;
+    padding: 0;  */
+}
+.navbar_links li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.navbar_links li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 14px 16px ;
+
+    display: block;
+}
+.navbar_links ul li a:hover{
+    background-color:#fff;
+    color:#14AC51;
+    
+}
+
+
+
+
+
+.banner{
+    background: url("../images/ps.jpeg") no-repeat center;
+    background-size: cover;
+    padding: 15%;
+
+}
+.cont_header{
+    background-color:#14AC51;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -5em;
+    opacity: 0.7;
+}
+h1{
+    text-align: center;
+}
+.form1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+input[type="text"], textarea{
+    padding: 12px 75px 12px 5px;
+    box-shadow: 0 0 5px black;
+    margin: 6px;
+    border: none;
+    outline: none;
+
+}
+::placeholder{
+    color:black;
+    font-weight: bold;
+}
+
+/*Style the form button*/
+button{
+    background-color: #14AC51;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    margin-left: 12%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+}
+/*Change on hover*/
+button:hover{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: white;
+    color: green;
+
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+.col{
+    background-color:#14AC51;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+
+}
+.card{
+    padding: 20px;
+    overflow: hidden;
+}
+.col p{
+    color: #fff;
+    font-size: 20px;
+
+}
+/*Style Footer*/
+#navigation ul{
+    display: block;
+    list-style: none;
+    padding: 10px;
+}
+#navigation h1{
+    color: black;
+}
+#navigation a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  font-weight: bold;
+}
+#navigation li{
+    margin: 10px;
+    padding: 5px;
+}
+#footer{
+    display: flex;
+    background-color: #14AC51;
+    justify-content: space-around;
+    
+}
+#opening-hours p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#opening-hours h1{
+    color: black;
+}
+#last-part{
+    text-align: center;
+}
+#last-part h3{
+    color: white;
+    font-size: 15px;
+}
+#last-part h2{
+    font-size: 40px;
+}
+#last-part h1{
+    font-size: 40px;
+}
