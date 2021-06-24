@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental Space</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 </head>
 <body>
     <div id="all">
-        <div class="logo">
+        <div class="logo" style="background: url('/assets/LOGO.png') no-repeat center; background-size: cover;">
         </div>
         <nav class="navbar">
             <div class="navbar_links">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">CONTACTS</a></li>
-                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                    <li><a href=#signIN onclick="login()">LOGIN</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <form class="signup-form" id="signUP">
-        <img src="assets/cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
+        <img src="./assets/cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Create Account</h2>
         <label id="signup-user">Username</label>
         <p class="validate1" id="validate-user1" style="position: absolute;margin-top: 68px;margin-left: 135px;color:#F8123B;font-weight:bold">Username can not be empty</p>
@@ -45,7 +45,7 @@
     </form>
 
     <form class="signin-form" id="signIN">
-        <img src="assets/cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
+        <img src="./assets/cancel.png" onclick="hideForm()" style="width: 23px;margin-left: 475px;margin-top: 2px;">
         <h2 style="font-weight: bold;text-align: center;margin-top: 0px;letter-spacing: 1px;">Sign In</h2>
         <label id="signup-user">Username</label>
         <p class="validate" id="validate-user" style="position: absolute;margin-top: 68px;margin-left: 135px;color:#F8123B;font-weight:bold">Username can not be empty</p>
@@ -170,7 +170,6 @@
                 <img src="assets/facebook.png" height="40px">
                 <img src="assets/instagram.png" height="40px">
                 <img src="assets/twitter.png" height="40px">
-    
             </div>
         </div>
     </div>

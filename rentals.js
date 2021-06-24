@@ -13,7 +13,7 @@ function hideForm(){
     document.getElementById("signUP").style.display = "none"
 }
 
-
+//add validation to sign in form
 function validate(){
     var a = document.getElementById("input-user").value;
     var b = document.getElementById("input-pwd").value;
@@ -45,6 +45,8 @@ function validate(){
     }
 }
 
+
+//add validation to signup form
 function validate1(){
     var a = document.getElementById("input-user").value;
     var b = document.getElementById("input-pwd").value;

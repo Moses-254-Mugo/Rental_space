@@ -78,7 +78,7 @@ body{
 
 
 .header{
-    background-image: url("assets/public_store.jpeg");
+    background-image: url("/assets/public_store.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
