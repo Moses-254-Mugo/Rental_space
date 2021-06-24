@@ -39,9 +39,11 @@ body{
 /*Style Logo*/
 .logo{
     float: left;
-    background:url("LOGO.png") no-repeat center;
+    background:url("assets/LOGO.png") no-repeat center;
     background-size: cover;
     padding: 42px;
+    height: 105px;
+    width: 100px;
 }
 #all{
     background-color: green;
@@ -76,7 +78,7 @@ body{
 
 
 .header{
-    background-image: url("public_store.jpeg");
+    background-image: url("/assets/public_store.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
